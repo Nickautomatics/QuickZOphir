@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Application>
+  <NavigationItems>
+    <Items>
+      <Item Id="Default" Caption="Administration" IsNewNode="True">
+        <Items IsNewNode="True">
+          <Item Id="SettingsHub" Caption="Local Hub" ImageName="ModelEditor_Action_Modules" ViewId="SettingsHubAccount_ListView" IsNewNode="True">
+            <Items IsNewNode="True">
+              <Item Id="SettingsHubAccount_ListView" ViewId="SettingsHubAccount_ListView" ObjectKey="" IsNewNode="True" />
+              <Item Id="SettingsHubWorkspace_ListView" ViewId="SettingsHubWorkspace_ListView" ObjectKey="" IsNewNode="True" />
+              <Item Id="WorkspaceStash_ListView" ViewId="WorkspaceStash_ListView" ObjectKey="" IsNewNode="True" />
+            </Items>
+          </Item>
+        </Items>
+      </Item>
+      <Item Id="Local Hub" Removed="True" />
+    </Items>
+  </NavigationItems>
+  <Options>
+    <LayoutManagerOptions RequiredFieldMark="*" />
+  </Options>
+  <SchemaModules>
+    <SchemaModule Name="SystemModule" Version="16.2.4.0" IsNewNode="True" />
+  </SchemaModules>
+</Application>

@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Application Company="Eezy Tools">
+  <NavigationItems DefaultChildItemsDisplayStyle="List">
+    <Items>
+      <Item Id="Default" Caption="Administration" Removed="True" />
+    </Items>
+  </NavigationItems>
+  <Options Skin="VS2010" DataAccessMode="Client" RestoreTabbedMdiLayout="False" />
+  <SchemaModules>
+    <SchemaModule Name="SystemModule" Version="16.2.5.0" IsNewNode="True" />
+    <SchemaModule Name="SystemWindowsFormsModule" Version="16.2.5.0" IsNewNode="True" />
+  </SchemaModules>
+</Application>

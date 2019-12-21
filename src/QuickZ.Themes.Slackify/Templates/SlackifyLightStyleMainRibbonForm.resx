@@ -1,0 +1,550 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="barContainerStatusMessages.Caption" xml:space="preserve">
+    <value>StatusMessages</value>
+  </data>
+  <data name="barContainerNotifications.Caption" xml:space="preserve">
+    <value>Notifications</value>
+  </data>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="ribbonStatusBar.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 583</value>
+  </data>
+  <data name="ribbonStatusBar.Size" type="System.Drawing.Size, System.Drawing">
+    <value>818, 20</value>
+  </data>
+  <data name="&gt;&gt;ribbonStatusBar.Name" xml:space="preserve">
+    <value>ribbonStatusBar</value>
+  </data>
+  <data name="&gt;&gt;ribbonStatusBar.Type" xml:space="preserve">
+    <value>DevExpress.XtraBars.Ribbon.RibbonStatusBar, DevExpress.XtraBars.v19.1, Version=19.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;ribbonStatusBar.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;ribbonStatusBar.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="MainSideNavigationPane.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
+    <value>Center</value>
+  </data>
+  <data name="HomeNavigationPage.Caption" xml:space="preserve">
+    <value>Home</value>
+  </data>
+  <data name="navBarControl.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Bottom</value>
+  </data>
+  <data name="navBarControl.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, -29</value>
+  </data>
+  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="resource.CollapsedWidth" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="resource.ExpandedWidth" type="System.Int32, mscorlib">
+    <value>185</value>
+  </data>
+  <data name="navBarControl.Size" type="System.Drawing.Size, System.Drawing">
+    <value>185, 548</value>
+  </data>
+  <data name="navBarControl.TabIndex" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <data name="&gt;&gt;navBarControl.Name" xml:space="preserve">
+    <value>navBarControl</value>
+  </data>
+  <data name="&gt;&gt;navBarControl.Type" xml:space="preserve">
+    <value>DevExpress.ExpressApp.Win.Templates.Navigation.XafNavBarControl, DevExpress.ExpressApp.Win.v19.1, Version=19.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;navBarControl.Parent" xml:space="preserve">
+    <value>HomeNavigationPage</value>
+  </data>
+  <data name="&gt;&gt;navBarControl.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="HomeNavigationPage.ImageOptions.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
+        YQUAAAAZdEVYdFNvZnR3YXJlAEFkb2JlIEltYWdlUmVhZHlxyWU8AAAAC3RFWHRUaXRsZQBIb21lOx50
+        ZDgAAAFBSURBVFhH7ZfLDcIwDIaLmIsR4M4CDMAIVSfgIXFCQsAMMADzcOGKCDZqqiix83BS9UAPVqu0
+        zv/FiZ2kUkpVQ1on3jRNJbAJ+KAl++pB5wBMQfgMdpBA5AKg+BVMtZYMkQNgi5MQ8/quTLOnSQrAiTsQ
+        fQBQ4jsY2cmYCgT5TQcAvEpGgBPHDMBvDsSivs1MiJwp8Inr9AtCSAEo8S2Tdl4ICUCKeDASqQAScS+E
+        HTVfGuaIR0NwACXEoyAogJLiQQgK4GIVFG61p+58VHbsKYAVAHwMCNE2y2zNCKHL9Rvel9waQIhN+zM1
+        Ut1J6Mn5HlEcIUObEQqQnTwfa+WzAHzXpwNgHst0J/ZRDdtjAKgjHvpS7eR5cAQYI+CLgFWsyHTsbRHm
+        XGCKZMHfAYTKbfL36EKUE+pU30Fvxgg7OMAXtxyZTFbHBocAAAAASUVORK5CYII=
+</value>
+  </data>
+  <data name="HomeNavigationPage.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 0, 0, 0</value>
+  </data>
+  <data name="HomeNavigationPage.Size" type="System.Drawing.Size, System.Drawing">
+    <value>185, 519</value>
+  </data>
+  <data name="&gt;&gt;HomeNavigationPage.Name" xml:space="preserve">
+    <value>HomeNavigationPage</value>
+  </data>
+  <data name="&gt;&gt;HomeNavigationPage.Type" xml:space="preserve">
+    <value>DevExpress.XtraBars.Navigation.NavigationPage, DevExpress.XtraBars.v19.1, Version=19.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;HomeNavigationPage.Parent" xml:space="preserve">
+    <value>MainSideNavigationPane</value>
+  </data>
+  <data name="&gt;&gt;HomeNavigationPage.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="SettingsNavigationPage.Caption" xml:space="preserve">
+    <value>Settings</value>
+  </data>
+  <data name="SettingsNavigationPage.ImageOptions.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
+        YQUAAAAZdEVYdFNvZnR3YXJlAEFkb2JlIEltYWdlUmVhZHlxyWU8AAAAK3RFWHRUaXRsZQBTZXR1cDtD
+        dXN0b21pejtEZXNpZ247U2V0dGluZztQcm9wZXJ0OB+1IQAAAcZJREFUWEfFl0tOw0AMhrsCJGBRbsSS
+        SlwEjsCuJ+C5gUvwkKBnAPY8xBK1S7hB8BclaDKKx560aRZW0tjz+48988cdFUUxGtLK5IfTWa4dyJq5
+        WFEZ9zzLwiF3VwJh8pDE2gjUSePryghsSDnPxN7ELsU2o/J6CLCGtWCcioHZIKi1gMDboL8ke6xIjOV6
+        FPlCMviIITlrQh+YDRIagXMlwbM8/0kkr5MR86LEgf1fBY3AhyOJ1gLr+aeHwHWPBG48BLYk6KkHEmA2
+        NnNKByCh9dEqc5v/teUklRqkCdGeLPhNVOFefPtiO5Vx/5CIBwtM1zEk6DgBdhIDBb/xaRUCUyUQa7sG
+        wltaakd1rDaV346wBW3a3gZCqS0CxFgE8M9DAp4FxOw6CBDjwuuLABszm8AQLViEFZgI64WDORvM2gOe
+        TfgtOJOUDqz9GMZvZQnRXSVE23LF2PmpN88WIjQb+XRtJkccsh4PNaoUE9jHx6geasx5YPDP8ZejpF1b
+        A7ZZAW0ko4/LjmQXHgLWUJo6oviWHkopUT2Wv8v9VcsO9o7lrAUjayy3lA6/h4CJs+q/Zki5mdSzBzwg
+        8bej1PbOBIb8e/4HCuS1b8BA0l0AAAAASUVORK5CYII=
+</value>
+  </data>
+  <data name="SettingsNavigationPage.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 0, 0, 0</value>
+  </data>
+  <data name="SettingsNavigationPage.Size" type="System.Drawing.Size, System.Drawing">
+    <value>175, 521</value>
+  </data>
+  <data name="&gt;&gt;SettingsNavigationPage.Name" xml:space="preserve">
+    <value>SettingsNavigationPage</value>
+  </data>
+  <data name="&gt;&gt;SettingsNavigationPage.Type" xml:space="preserve">
+    <value>DevExpress.XtraBars.Navigation.NavigationPage, DevExpress.XtraBars.v19.1, Version=19.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;SettingsNavigationPage.Parent" xml:space="preserve">
+    <value>MainSideNavigationPane</value>
+  </data>
+  <data name="&gt;&gt;SettingsNavigationPage.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="navigationPage1.Caption" xml:space="preserve">
+    <value>navigationPage1</value>
+  </data>
+  <data name="navigationPage1.ImageOptions.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
+        YQUAAAAbdEVYdFRpdGxlAFByaW50O1ByaW50U3RhcnREYXRlO1h2U2AAAAHtSURBVFhH7VexSgNBEL2f
+        yJf4CdoKfoCIEALaKoiFlV4lomAQmxSCRbAQBBu10BiLeBhCxBQKQQshoojYRJAU475lV3b39i5LbjVN
+        FoblZiczb97Mzl0CIgqGKUMNjsR/AYRhSP8hJtsjABoDjB5t1et1U0VZdChxaglGAGJ8Oypcy9K3BHAk
+        nS2VdylNgE3au+59AagJuwCQ9t4YsAEwqyCBqfoRABsDKf2rvX+0QWRrwrQSJDUffjO5ehIT4SsZgM8m
+        HDoAkwUlOTcGHGcQN1N74LP7TWeNZ1o/vKVCsUpT4Snf8Qw9Y2ZCsDPGdv17YNB3gfxd8/GdwoOGtf62
+        ksQAuE401U4Nvliq8eDTG+e0fdyiaqtDLx9dvuMZegXIvDcGQLvMfGX/hq7vX60VhB7nAmSF7Tkv3wOi
+        tjzDpOASEc4VJvJeAKDBkBVotq3o4Y2fywU7UYqyFwCF4iV3iFqbSwbHLhfsBIB25o9SOMVVg0M0nLmg
+        V4PjHHYCQM/L/4LZrcpXEgO2klgZYIYDg1ko1e7SesAEYe2BLACW96I1ef8HvgVZAOA+z+1cNQHCdQ4w
+        2yNtDmQEEDBn4zObF0+OkzCCvTYJPQDgINiQwYRLex8gcx78LwDAaY5JnkmZSZtJT+x4hh7nPDjkByDs
+        0vVaWi20AAAAAElFTkSuQmCC
+</value>
+  </data>
+  <data name="navigationPage1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>155, 501</value>
+  </data>
+  <data name="&gt;&gt;navigationPage1.Name" xml:space="preserve">
+    <value>navigationPage1</value>
+  </data>
+  <data name="&gt;&gt;navigationPage1.Type" xml:space="preserve">
+    <value>DevExpress.XtraBars.Navigation.NavigationPage, DevExpress.XtraBars.v19.1, Version=19.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;navigationPage1.Parent" xml:space="preserve">
+    <value>MainSideNavigationPane</value>
+  </data>
+  <data name="&gt;&gt;navigationPage1.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="navigationPage2.Caption" xml:space="preserve">
+    <value>navigationPage2</value>
+  </data>
+  <data name="navigationPage2.ImageOptions.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
+        YQUAAAAOdEVYdFRpdGxlAFN1cHBvcnQ7n7Xg9QAAAsRJREFUWEfFlkvIjkEUxz+U3HIvtxARpVhZiKwo
+        ZGEjJSkW2IlkZWFjY+FSopSs9EkRUhJfKfdEyp2yIZeyINGHj9fv/zZHj/G8M2fkZfHred/mzDn/OXNm
+        5nQ0Go2O/0kz+NbOA6UMZ84qOAx34D00Ap/4PoSjsAHGpfyXCpiMs0OgIBYw9+3B9hTMrhPiFdCHyZvh
+        Y0HgWNg35u6GgVUhHgGDmHAOvsIjOA/HAqf53o62IJeRe9iPNxEeAYswng/9E3vZm7HpsAluObL0FJuR
+        8ucRoAysgINwE15Adwii72M4AuthUhA5l+/JjJAzOQFjMdgHHxwrsrR/x/ZCyJhO1gJ4npi/tC4DvZiw
+        Dt4VBI73XUJ0WoaGVF9r4asrFtAXQxVYrpC848/wNQ0GwPUavz1VAVr5CWfwL9jpVHiEaAsmwGh4Gc+p
+        CtiScPiKsR0wLziSWO3xFNgOnzNirjKuk6Ji/kW0CRjFQOqSecJ4vxBUx1FHblj4LyFrHNlYi42E363a
+        moBtDgfansugAtMqtAV2vWqPc9uhN0NidVeYbbcJuOFwEAd4zZyJwekM53zVwqyK7XETUHrHn8WJikor
+        GgF1FV6XkSXY6qRpTG/DHBOQS191fG/YSwVfDL9VdiIbK4NovZC79NsEVN/znJipTFQBqqisHnJzbHwh
+        c1QvV6BZ1CbgonMPvYHq7CRWp20IDA6Z+Clgo1OA0r0ctBKd7RJBlyxo9WsZkKK3Dodqwax90xaUCFiW
+        EiCn6vFyDiVyNciZGpGcvY2rcantO+PHaH+BU2/wB/jUUXUJ0H295y+KUJbGtApePQWxOu/qWtnpktF9
+        Ye9Hy7a/VUv2pwL0THfCzNSq605BLgNqs3ZCF9yHN6DLS++B+kTVjp7aZqNZgicDaslTHXFRwFhcTkBb
+        g+eKsO3BUwL+SfCUgLbteVwDPwCj3jekFnIeAwAAAABJRU5ErkJggg==
+</value>
+  </data>
+  <data name="navigationPage2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>155, 501</value>
+  </data>
+  <data name="&gt;&gt;navigationPage2.Name" xml:space="preserve">
+    <value>navigationPage2</value>
+  </data>
+  <data name="&gt;&gt;navigationPage2.Type" xml:space="preserve">
+    <value>DevExpress.XtraBars.Navigation.NavigationPage, DevExpress.XtraBars.v19.1, Version=19.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;navigationPage2.Parent" xml:space="preserve">
+    <value>MainSideNavigationPane</value>
+  </data>
+  <data name="&gt;&gt;navigationPage2.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="MainSideNavigationPane.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Left</value>
+  </data>
+  <data name="MainSideNavigationPane.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 34</value>
+  </data>
+  <data name="MainSideNavigationPane.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 0, 0, 0</value>
+  </data>
+  <data name="MainSideNavigationPane.PageProperties.AppearanceCaption.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
+        YQUAAAAZdEVYdFNvZnR3YXJlAEFkb2JlIEltYWdlUmVhZHlxyWU8AAAAC3RFWHRUaXRsZQBIb21lOx50
+        ZDgAAAFBSURBVFhH7ZfLDcIwDIaLmIsR4M4CDMAIVSfgIXFCQsAMMADzcOGKCDZqqiix83BS9UAPVqu0
+        zv/FiZ2kUkpVQ1on3jRNJbAJ+KAl++pB5wBMQfgMdpBA5AKg+BVMtZYMkQNgi5MQ8/quTLOnSQrAiTsQ
+        fQBQ4jsY2cmYCgT5TQcAvEpGgBPHDMBvDsSivs1MiJwp8Inr9AtCSAEo8S2Tdl4ICUCKeDASqQAScS+E
+        HTVfGuaIR0NwACXEoyAogJLiQQgK4GIVFG61p+58VHbsKYAVAHwMCNE2y2zNCKHL9Rvel9waQIhN+zM1
+        Ut1J6Mn5HlEcIUObEQqQnTwfa+WzAHzXpwNgHst0J/ZRDdtjAKgjHvpS7eR5cAQYI+CLgFWsyHTsbRHm
+        XGCKZMHfAYTKbfL36EKUE+pU30Fvxgg7OMAXtxyZTFbHBocAAAAASUVORK5CYII=
+</value>
+  </data>
+  <data name="MainSideNavigationPane.Size" type="System.Drawing.Size, System.Drawing">
+    <value>229, 549</value>
+  </data>
+  <data name="MainSideNavigationPane.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="MainSideNavigationPane.Text" xml:space="preserve">
+    <value>Home</value>
+  </data>
+  <data name="&gt;&gt;MainSideNavigationPane.Name" xml:space="preserve">
+    <value>MainSideNavigationPane</value>
+  </data>
+  <data name="&gt;&gt;MainSideNavigationPane.Type" xml:space="preserve">
+    <value>DevExpress.XtraBars.Navigation.NavigationPane, DevExpress.XtraBars.v19.1, Version=19.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;MainSideNavigationPane.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;MainSideNavigationPane.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="SlackifyXafMasterContainer.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="SlackifyXafMasterContainer.Location" type="System.Drawing.Point, System.Drawing">
+    <value>229, 34</value>
+  </data>
+  <data name="SlackifyXafMasterContainer.Size" type="System.Drawing.Size, System.Drawing">
+    <value>589, 549</value>
+  </data>
+  <data name="SlackifyXafMasterContainer.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;SlackifyXafMasterContainer.Name" xml:space="preserve">
+    <value>SlackifyXafMasterContainer</value>
+  </data>
+  <data name="&gt;&gt;SlackifyXafMasterContainer.Type" xml:space="preserve">
+    <value>QuickZ.Themes.SlackifyWin.Templates.SlackifyXafMasterContainer, QuickZ.Themes.SlackifyWin, Version=0.1.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;SlackifyXafMasterContainer.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;SlackifyXafMasterContainer.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="NavMainButton.Appearance.BackColor" type="System.Drawing.Color, System.Drawing">
+    <value>242, 242, 242</value>
+  </data>
+  <data name="NavMainButton.Caption" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="NavMainButton.Glyph" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
+        YQUAAAAZdEVYdFNvZnR3YXJlAEFkb2JlIEltYWdlUmVhZHlxyWU8AAAAFXRFWHRUaXRsZQBQYWxldHRl
+        O0NvbG9yczs+105wAAAAk0lEQVRYR+2UIRZAQBRFZ3GqRTh2INAlQZEkSWAJFiAp4liAbAuP3wjzxe8c
+        L9w2c7y5zrkOgLPE9OPy8G8NiMsJL7h8aKFx3XfHnEHj/ssfBjiABmjA3IBFkh8daGYPDYlMt9TQkDP7
+        mEAjGCIOoAEaMDdgHqKiH6AhkfFrBQ05s6URNIIh4gAaoAFzA+Yh+uWAE2BwaUYUSJGSAAAAAElFTkSu
+        QmCC
+</value>
+  </data>
+  <data name="NavCompanyNameButton.Caption" xml:space="preserve">
+    <value>ExpreZoe</value>
+  </data>
+  <data name="navButton2.Caption" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="navButton2.Glyph" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
+        YQUAAAAZdEVYdFNvZnR3YXJlAEFkb2JlIEltYWdlUmVhZHlxyWU8AAAAHHRFWHRUaXRsZQBOZXh0O1Bs
+        YXk7QXJyb3c7UmlnaHQ7UnFsSAAAAGxJREFUOE9j+P//PwM69m3a4YtNHJsYhmaQIqAB/4k1BJ8BRBlC
+        yACChhBjAF5DiDUAbEjZ8ukY6kkxAKtLSDUAwxBSDcBIH6QYgDVxEWsAzpRJjAF4kzUhAwjmCZrlBYI2
+        w3ImVhcQm5VB6gAOi9OoZH34CgAAAABJRU5ErkJggg==
+</value>
+  </data>
+  <data name="NavDocumentCaptionButton.Caption" xml:space="preserve">
+    <value>Home</value>
+  </data>
+  <data name="MainTileNavigationPane.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Top</value>
+  </data>
+  <data name="MainTileNavigationPane.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="MainTileNavigationPane.Size" type="System.Drawing.Size, System.Drawing">
+    <value>818, 34</value>
+  </data>
+  <data name="MainTileNavigationPane.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="MainTileNavigationPane.Text" xml:space="preserve">
+    <value>tileNavPane1</value>
+  </data>
+  <data name="&gt;&gt;MainTileNavigationPane.Name" xml:space="preserve">
+    <value>MainTileNavigationPane</value>
+  </data>
+  <data name="&gt;&gt;MainTileNavigationPane.Type" xml:space="preserve">
+    <value>DevExpress.XtraBars.Navigation.TileNavPane, DevExpress.XtraBars.v19.1, Version=19.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;MainTileNavigationPane.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;MainTileNavigationPane.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <metadata name="formStateModelSynchronizer.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>17, 17</value>
+  </metadata>
+  <metadata name="modelSynchronizationManager.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>227, 17</value>
+  </metadata>
+  <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="$this.TrayHeight" type="System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>57</value>
+  </metadata>
+  <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
+    <value>6, 13</value>
+  </data>
+  <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
+    <value>818, 603</value>
+  </data>
+  <data name="$this.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 5, 3, 5</value>
+  </data>
+  <data name="$this.MinimumSize" type="System.Drawing.Size, System.Drawing">
+    <value>380, 296</value>
+  </data>
+  <data name="$this.Text" xml:space="preserve">
+    <value>Welcome</value>
+  </data>
+  <data name="&gt;&gt;barContainerStatusMessages.Name" xml:space="preserve">
+    <value>barContainerStatusMessages</value>
+  </data>
+  <data name="&gt;&gt;barContainerStatusMessages.Type" xml:space="preserve">
+    <value>DevExpress.XtraBars.BarLinkContainerExItem, DevExpress.XtraBars.v19.1, Version=19.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;barContainerNotifications.Name" xml:space="preserve">
+    <value>barContainerNotifications</value>
+  </data>
+  <data name="&gt;&gt;barContainerNotifications.Type" xml:space="preserve">
+    <value>DevExpress.XtraBars.BarLinkContainerExItem, DevExpress.XtraBars.v19.1, Version=19.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;barActionContainerNotifications.Name" xml:space="preserve">
+    <value>barActionContainerNotifications</value>
+  </data>
+  <data name="&gt;&gt;barActionContainerNotifications.Type" xml:space="preserve">
+    <value>DevExpress.ExpressApp.Win.Templates.Bars.ActionControls.BarLinkActionControlContainer, DevExpress.ExpressApp.Win.v19.1, Version=19.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;navBarSingleChoiceActionControl.Name" xml:space="preserve">
+    <value>navBarSingleChoiceActionControl</value>
+  </data>
+  <data name="&gt;&gt;navBarSingleChoiceActionControl.Type" xml:space="preserve">
+    <value>DevExpress.ExpressApp.Win.Templates.Navigation.NavBarSingleChoiceActionControl, DevExpress.ExpressApp.Win.v19.1, Version=19.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;MainTileNagivationCategory.Name" xml:space="preserve">
+    <value>MainTileNagivationCategory</value>
+  </data>
+  <data name="&gt;&gt;MainTileNagivationCategory.Type" xml:space="preserve">
+    <value>DevExpress.XtraBars.Navigation.TileNavCategory, DevExpress.XtraBars.v19.1, Version=19.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;NavMainButton.Name" xml:space="preserve">
+    <value>NavMainButton</value>
+  </data>
+  <data name="&gt;&gt;NavMainButton.Type" xml:space="preserve">
+    <value>DevExpress.XtraBars.Navigation.NavButton, DevExpress.XtraBars.v19.1, Version=19.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;NavCompanyNameButton.Name" xml:space="preserve">
+    <value>NavCompanyNameButton</value>
+  </data>
+  <data name="&gt;&gt;NavCompanyNameButton.Type" xml:space="preserve">
+    <value>DevExpress.XtraBars.Navigation.NavButton, DevExpress.XtraBars.v19.1, Version=19.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;navButton2.Name" xml:space="preserve">
+    <value>navButton2</value>
+  </data>
+  <data name="&gt;&gt;navButton2.Type" xml:space="preserve">
+    <value>DevExpress.XtraBars.Navigation.NavButton, DevExpress.XtraBars.v19.1, Version=19.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;NavDocumentCaptionButton.Name" xml:space="preserve">
+    <value>NavDocumentCaptionButton</value>
+  </data>
+  <data name="&gt;&gt;NavDocumentCaptionButton.Type" xml:space="preserve">
+    <value>DevExpress.XtraBars.Navigation.NavButton, DevExpress.XtraBars.v19.1, Version=19.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;formStateModelSynchronizer.Name" xml:space="preserve">
+    <value>formStateModelSynchronizer</value>
+  </data>
+  <data name="&gt;&gt;formStateModelSynchronizer.Type" xml:space="preserve">
+    <value>DevExpress.ExpressApp.Win.Core.FormStateModelSynchronizer, DevExpress.ExpressApp.Win.v19.1, Version=19.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;modelSynchronizationManager.Name" xml:space="preserve">
+    <value>modelSynchronizationManager</value>
+  </data>
+  <data name="&gt;&gt;modelSynchronizationManager.Type" xml:space="preserve">
+    <value>DevExpress.ExpressApp.Win.Templates.ModelSynchronizationManager, DevExpress.ExpressApp.Win.v19.1, Version=19.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;navBarControlModelSynchronizer.Name" xml:space="preserve">
+    <value>navBarControlModelSynchronizer</value>
+  </data>
+  <data name="&gt;&gt;navBarControlModelSynchronizer.Type" xml:space="preserve">
+    <value>DevExpress.ExpressApp.Win.Templates.Navigation.NavBarControlModelSynchronizer, DevExpress.ExpressApp.Win.v19.1, Version=19.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;$this.Name" xml:space="preserve">
+    <value>SlackifyLightStyleMainRibbonForm</value>
+  </data>
+  <data name="&gt;&gt;$this.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.XtraForm, DevExpress.Utils.v19.1, Version=19.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+</root>

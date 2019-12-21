@@ -1,0 +1,49 @@
+﻿<QuickZ>
+  <Workspaces>
+    <XmlWorkspace>
+      <DBType>SQLServer</DBType>
+      <Name>JAMES-SQL</Name>
+      <Database>ScaleFusion</Database>
+      <Server>QuickZ-SERVER-DB\SQLEXPRESS</Server>
+      <Port>1433</Port>
+      <UserName>sa</UserName>
+      <Password>Server12346789</Password>
+    </XmlWorkspace>
+      <XmlWorkspace>
+      <DBType>SQLServer</DBType>
+      <Name>Ubuntu Server</Name>
+      <Database>ScaleFusion</Database>
+      <Server>192.168.12.8,1433\SQLEXPRESS</Server>
+      <Port>1433</Port>
+      <UserName>sa</UserName>
+      <Password>Server12346789</Password>
+    </XmlWorkspace>
+    <XmlWorkspace>
+      <DBType>SQLServer</DBType>
+      <Name>PISD GS - Fusion</Name>
+      <Database>ScaleFusion</Database>
+      <Server>192.168.103.253,1445\SQLEXPRESS</Server>
+      <Port>1445</Port>
+      <UserName>quickz</UserName>
+      <Password>Server12346789</Password>
+    </XmlWorkspace>
+    <XmlWorkspace>
+      <DBType>SQLServerLocal</DBType>
+      <Name>Local DB</Name>
+      <Database>ScaleFusion</Database>
+      <Server>(localdb)\mssqllocaldb</Server>
+      <Port>1433</Port>
+      <UserName>quickz</UserName>
+      <Password>Server12346789</Password>
+    </XmlWorkspace>
+      <XmlWorkspace>
+      <DBType>SQLServerLocal</DBType>
+      <Name>QuickZ Local DB (Back-Up)</Name>
+      <Database>ScaleFusion-GS-2</Database>
+      <Server>QuickZ-SERVER-DB\SQLEXPRESS</Server>
+      <Port>1433</Port>
+      <UserName>sa</UserName>
+      <Password>Server12346789</Password>
+    </XmlWorkspace>
+  </Workspaces>
+</QuickZ>

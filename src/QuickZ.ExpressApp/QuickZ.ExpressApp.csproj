@@ -1,0 +1,413 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" ToolsVersion="12.0">
+  <Import Project="..\Common.props" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>9.0.30729</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{BA605038-0A33-41A7-BFE6-A3D45DFA18D1}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>QuickZ.ExpressApp</RootNamespace>
+    <AssemblyName>QuickZ.ExpressApp</AssemblyName>
+    <TargetFrameworkVersion>v4.6.2</TargetFrameworkVersion>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <UpgradeBackupLocation>
+    </UpgradeBackupLocation>
+    <OldToolsVersion>3.5</OldToolsVersion>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>..\..\bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'EasyTest|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <OutputPath>bin\EasyTest\</OutputPath>
+    <DefineConstants>TRACE;DEBUG;EASYTEST</DefineConstants>
+    <DebugType>full</DebugType>
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <ErrorReport>prompt</ErrorReport>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|x86'">
+    <DebugSymbols>true</DebugSymbols>
+    <OutputPath>..\bin\x86\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <DebugType>full</DebugType>
+    <PlatformTarget>x86</PlatformTarget>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisRuleSet>MinimumRecommendedRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Release|x86'">
+    <OutputPath>bin\x86\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <Optimize>true</Optimize>
+    <DebugType>pdbonly</DebugType>
+    <PlatformTarget>x86</PlatformTarget>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisRuleSet>MinimumRecommendedRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'EasyTest|x86'">
+    <DebugSymbols>true</DebugSymbols>
+    <OutputPath>bin\x86\EasyTest\</OutputPath>
+    <DefineConstants>TRACE;DEBUG;EASYTEST</DefineConstants>
+    <DebugType>full</DebugType>
+    <PlatformTarget>x86</PlatformTarget>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisRuleSet>MinimumRecommendedRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="DevExpress.ExpressApp.ConditionalAppearance.v19.1, Version=19.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+    </Reference>
+    <Reference Include="DevExpress.ExpressApp.Objects.v19.1, Version=19.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+    </Reference>
+    <Reference Include="DevExpress.ExpressApp.Security.v19.1, Version=19.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.ExpressApp.Security.Xpo.v19.1, Version=19.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.ExpressApp.Validation.v19.1, Version=19.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+    </Reference>
+    <Reference Include="DevExpress.ExpressApp.ViewVariantsModule.v19.1, Version=19.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+    </Reference>
+    <Reference Include="DevExpress.ExpressApp.Xpo.v19.1">
+      <SpecificVersion>False</SpecificVersion>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="DevExpress.RichEdit.v19.1.Export">
+      <SpecificVersion>False</SpecificVersion>
+    </Reference>
+    <Reference Include="DevExpress.Office.v19.1.Core">
+      <SpecificVersion>False</SpecificVersion>
+    </Reference>
+    <Reference Include="DevExpress.RichEdit.v19.1.Core">
+      <SpecificVersion>False</SpecificVersion>
+    </Reference>
+    <Reference Include="DevExpress.Printing.v19.1.Core">
+      <SpecificVersion>False</SpecificVersion>
+    </Reference>
+    <Reference Include="DevExpress.Data.v19.1">
+      <SpecificVersion>False</SpecificVersion>
+    </Reference>
+    <Reference Include="DevExpress.ExpressApp.v19.1">
+      <SpecificVersion>False</SpecificVersion>
+    </Reference>
+    <Reference Include="DevExpress.Persistent.Base.v19.1">
+      <SpecificVersion>False</SpecificVersion>
+    </Reference>
+    <Reference Include="DevExpress.Persistent.BaseImpl.v19.1">
+      <SpecificVersion>False</SpecificVersion>
+    </Reference>
+    <Reference Include="DevExpress.Xpo.v19.1">
+      <SpecificVersion>False</SpecificVersion>
+    </Reference>
+    <Reference Include="System">
+      <Name>System</Name>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Data">
+      <Name>System.Data</Name>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Drawing">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Xml">
+      <Name>System.XML</Name>
+      <Private>False</Private>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="..\QuickZ.Core\QuickZCoreVersionInfo.cs">
+      <Link>QuickZCoreVersionInfo.cs</Link>
+    </Compile>
+    <Compile Include="Base\QuickZModuleBase.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="BusinessEngine.cs" />
+    <Compile Include="Editors\EditorAliases.cs" />
+    <Compile Include="DatabaseUpdate\Updater.cs" />
+    <Compile Include="Module.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Module.Designer.cs">
+      <DependentUpon>Module.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="System\BusinessObjects\SharedLocation.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Model.DesignedDiffs.xafml" />
+    <EmbeddedResource Include="Module.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>Module.cs</DependentUpon>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="DatabaseUpdate\ReadMe.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Entities\ReadMe.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Controllers\ReadMe.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\ReadMe.txt" />
+    <None Include="ReadMe.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="BusinessObjects\" />
+    <Folder Include="Extensions\" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Images\Banking-Transaction.png" />
+    <EmbeddedResource Include="Images\Banking-Transaction_32x32.png" />
+    <EmbeddedResource Include="Images\Banking-Transaction_48x48.png" />
+    <EmbeddedResource Include="Images\BOAcademicProgramGroup_24x24.png" />
+    <EmbeddedResource Include="Images\BOAcademicProgramGroup_32x32.png" />
+    <EmbeddedResource Include="Images\BOAcademicProgramGroup_48x48.png" />
+    <EmbeddedResource Include="Images\BOAcademicProgramLevel_24x24.png" />
+    <EmbeddedResource Include="Images\BOAcademicProgramLevel_32x32.png" />
+    <EmbeddedResource Include="Images\BOAcademicProgramLevel_48x48.png" />
+    <EmbeddedResource Include="Images\BOAcademicProgramScheduleClass_24x24.png" />
+    <EmbeddedResource Include="Images\BOAcademicProgramScheduleClass_32x32.png" />
+    <EmbeddedResource Include="Images\BOAcademicProgramScheduleClass_48x48.png" />
+    <EmbeddedResource Include="Images\BOAcademicProgramSchedulePeriod_24x24.png" />
+    <EmbeddedResource Include="Images\BOAcademicProgramSchedulePeriod_32x32.png" />
+    <EmbeddedResource Include="Images\BOAcademicProgramSchedulePeriod_48x48.png" />
+    <EmbeddedResource Include="Images\BOAcademicProgram_24x24.png" />
+    <EmbeddedResource Include="Images\BOAcademicProgram_32x32.png" />
+    <EmbeddedResource Include="Images\BOAcademicProgram_48x48.png" />
+    <EmbeddedResource Include="Images\BOAcademic_24x24.png" />
+    <EmbeddedResource Include="Images\BOAcademic_32x32.png" />
+    <EmbeddedResource Include="Images\BOAcademic_48x48.png" />
+    <EmbeddedResource Include="Images\BOAttendanceMonthlyRecordType_24x24.png" />
+    <EmbeddedResource Include="Images\BOAttendanceMonthlyRecordType_32x32.png" />
+    <EmbeddedResource Include="Images\BOAttendanceMonthlyRecordType_48x48.png" />
+    <EmbeddedResource Include="Images\BOBarangay_24x24.png" />
+    <EmbeddedResource Include="Images\BOBarangay_32x32.png" />
+    <EmbeddedResource Include="Images\BOBarangay_48x48.png" />
+    <EmbeddedResource Include="Images\BOBatchProcessing_24x24.png" />
+    <EmbeddedResource Include="Images\BOBatchProcessing_32x32.png" />
+    <EmbeddedResource Include="Images\BOBatchProcessing_48x48.png" />
+    <EmbeddedResource Include="Images\BOCatalogues_24x24.png" />
+    <EmbeddedResource Include="Images\BOCatalogues_32x32.png" />
+    <EmbeddedResource Include="Images\BOCatalogues_48x48.png" />
+    <EmbeddedResource Include="Images\BOCitizenship_24x24.png" />
+    <EmbeddedResource Include="Images\BOCitizenship_32x32.png" />
+    <EmbeddedResource Include="Images\BOCitizenship_48x48.png" />
+    <EmbeddedResource Include="Images\BOCity_24x24.png" />
+    <EmbeddedResource Include="Images\BOCity_32x32.png" />
+    <EmbeddedResource Include="Images\BOCity_48x48.png" />
+    <EmbeddedResource Include="Images\BOCivilStatus_24x24.png" />
+    <EmbeddedResource Include="Images\BOCivilStatus_32x32.png" />
+    <EmbeddedResource Include="Images\BOCivilStatus_48x48.png" />
+    <EmbeddedResource Include="Images\BOClassis_24x24.png" />
+    <EmbeddedResource Include="Images\BOClassis_32x32.png" />
+    <EmbeddedResource Include="Images\BOClassis_48x48.png" />
+    <EmbeddedResource Include="Images\BOConfiguration_24x24.png" />
+    <EmbeddedResource Include="Images\BOConfiguration_32x32.png" />
+    <EmbeddedResource Include="Images\BOConfiguration_48x48.png" />
+    <EmbeddedResource Include="Images\BOCoordinatorModule_24x24.png" />
+    <EmbeddedResource Include="Images\BOCoordinatorModule_32x32.png" />
+    <EmbeddedResource Include="Images\BOCoordinatorModule_48x48.png" />
+    <EmbeddedResource Include="Images\BOCourseType_24x24.png" />
+    <EmbeddedResource Include="Images\BOCourseType_32x32.png" />
+    <EmbeddedResource Include="Images\BOCourseType_48x48.png" />
+    <EmbeddedResource Include="Images\BOCourse_24x24.png" />
+    <EmbeddedResource Include="Images\BOCourse_32x32.png" />
+    <EmbeddedResource Include="Images\BOCourse_48x48.png" />
+    <EmbeddedResource Include="Images\BOCurriculumCourse_24x24.png" />
+    <EmbeddedResource Include="Images\BOCurriculumCourse_32x32.png" />
+    <EmbeddedResource Include="Images\BOCurriculumCourse_48x48.png" />
+    <EmbeddedResource Include="Images\BOCurriculumGradingPeriod_24x24.png" />
+    <EmbeddedResource Include="Images\BOCurriculumGradingPeriod_32x32.png" />
+    <EmbeddedResource Include="Images\BOCurriculumGradingPeriod_48x48.png" />
+    <EmbeddedResource Include="Images\BOCurriculumLevel_24x24.png" />
+    <EmbeddedResource Include="Images\BOCurriculumLevel_32x32.png" />
+    <EmbeddedResource Include="Images\BOCurriculumLevel_48x48.png" />
+    <EmbeddedResource Include="Images\BOCurriculum_24x24.png" />
+    <EmbeddedResource Include="Images\BOCurriculum_32x32.png" />
+    <EmbeddedResource Include="Images\BOCurriculum_48x48.png" />
+    <EmbeddedResource Include="Images\BODashboards_24x24.png" />
+    <EmbeddedResource Include="Images\BODashboards_32x32.png" />
+    <EmbeddedResource Include="Images\BODashboards_48x48.png" />
+    <EmbeddedResource Include="Images\BODepartment_24x24.png" />
+    <EmbeddedResource Include="Images\BODepartment_32x32.png" />
+    <EmbeddedResource Include="Images\BODepartment_48x48.png" />
+    <EmbeddedResource Include="Images\BODepEdDisctrict24x24.png" />
+    <EmbeddedResource Include="Images\BODepEdDisctrict_32x32.png" />
+    <EmbeddedResource Include="Images\BODepEdDisctrict_48x48.png" />
+    <EmbeddedResource Include="Images\BODepEdDivision_24x24.png" />
+    <EmbeddedResource Include="Images\BODepEdDivision_32x32.png" />
+    <EmbeddedResource Include="Images\BODepEdDivision_48x48.png" />
+    <EmbeddedResource Include="Images\BODepEdPhilippines_24x24.png" />
+    <EmbeddedResource Include="Images\BODepEdPhilippines_32x32.png" />
+    <EmbeddedResource Include="Images\BODepEdPhilippines_48x48.png" />
+    <EmbeddedResource Include="Images\BODepEdPrivateSchool_24x24.png" />
+    <EmbeddedResource Include="Images\BODepEdPrivateSchool_32x32.png" />
+    <EmbeddedResource Include="Images\BODepEdPrivateSchool_48x48.png" />
+    <EmbeddedResource Include="Images\BOEthnicGroup_24x24.png" />
+    <EmbeddedResource Include="Images\BOEthnicGroup_32x32.png" />
+    <EmbeddedResource Include="Images\BOEthnicGroup_48x48.png" />
+    <EmbeddedResource Include="Images\BOGender_24x24.png" />
+    <EmbeddedResource Include="Images\BOGender_32x32.png" />
+    <EmbeddedResource Include="Images\BOGender_48x48.png" />
+    <EmbeddedResource Include="Images\BOGradeEntry_24x24.png" />
+    <EmbeddedResource Include="Images\BOGradeEntry_32x32.png" />
+    <EmbeddedResource Include="Images\BOGradeEntry_48x48.png" />
+    <EmbeddedResource Include="Images\BOGradeHistory_24x24.png" />
+    <EmbeddedResource Include="Images\BOGradeHistory_32x32.png" />
+    <EmbeddedResource Include="Images\BOGradeHistory_48x48.png" />
+    <EmbeddedResource Include="Images\BOGradeSchool_24x24.png" />
+    <EmbeddedResource Include="Images\BOGradeSchool_32x32.png" />
+    <EmbeddedResource Include="Images\BOGradeSchool_48x48.png" />
+    <EmbeddedResource Include="Images\BOGrade_24x24.png" />
+    <EmbeddedResource Include="Images\BOGrade_32x32.png" />
+    <EmbeddedResource Include="Images\BOGrade_48x48.png" />
+    <EmbeddedResource Include="Images\BOLetterGradeType_24x24.png" />
+    <EmbeddedResource Include="Images\BOLetterGradeType_32x32.png" />
+    <EmbeddedResource Include="Images\BOLetterGradeType_48x48.png" />
+    <EmbeddedResource Include="Images\BOLocalHub_24x24.png" />
+    <EmbeddedResource Include="Images\BOLocalHub_32x32.png" />
+    <EmbeddedResource Include="Images\BOLocalHub_48x48.png" />
+    <EmbeddedResource Include="Images\BOMesseges_24x24.png" />
+    <EmbeddedResource Include="Images\BOMesseges_32x32.png" />
+    <EmbeddedResource Include="Images\BOMesseges_48x48.png" />
+    <EmbeddedResource Include="Images\BOMydetails_24x24.png" />
+    <EmbeddedResource Include="Images\BOMydetails_32x32.png" />
+    <EmbeddedResource Include="Images\BOMydetails_48x48.png" />
+    <EmbeddedResource Include="Images\BONationality_24x24.png" />
+    <EmbeddedResource Include="Images\BONationality_32x32.png" />
+    <EmbeddedResource Include="Images\BONationality_48x48.png" />
+    <EmbeddedResource Include="Images\BOParent_24x24.png" />
+    <EmbeddedResource Include="Images\BOParent_32x32.png" />
+    <EmbeddedResource Include="Images\BOParent_48x48.png" />
+    <EmbeddedResource Include="Images\BOPersonnel _24x24.png" />
+    <EmbeddedResource Include="Images\BOPersonnel _32x32.png" />
+    <EmbeddedResource Include="Images\BOPersonnel _48x48.png" />
+    <EmbeddedResource Include="Images\BOProgramRegistration_24x24.png" />
+    <EmbeddedResource Include="Images\BOProgramRegistration_32x32.png" />
+    <EmbeddedResource Include="Images\BOProgramRegistration_48x48.png" />
+    <EmbeddedResource Include="Images\BOProvince_24x24.png" />
+    <EmbeddedResource Include="Images\BOProvince_32x32.png" />
+    <EmbeddedResource Include="Images\BOProvince_48x48.png" />
+    <EmbeddedResource Include="Images\BOReportCards_24x24.png" />
+    <EmbeddedResource Include="Images\BOReportCards_32x32.png" />
+    <EmbeddedResource Include="Images\BOReportCards_48x48.png" />
+    <EmbeddedResource Include="Images\BOReports_24x24.png" />
+    <EmbeddedResource Include="Images\BOReports_32x32.png" />
+    <EmbeddedResource Include="Images\BOReports_48x48.png" />
+    <EmbeddedResource Include="Images\BOSections_24x24.png" />
+    <EmbeddedResource Include="Images\BOSections_32x32.png" />
+    <EmbeddedResource Include="Images\BOSections_48x48.png" />
+    <EmbeddedResource Include="Images\BOStaff_24x24.png" />
+    <EmbeddedResource Include="Images\BOStaff_32x32.png" />
+    <EmbeddedResource Include="Images\BOStaff_48x48.png" />
+    <EmbeddedResource Include="Images\BOStudent1_24x24.png" />
+    <EmbeddedResource Include="Images\BOStudent1_32x32.png" />
+    <EmbeddedResource Include="Images\BOStudent1_48x48.png" />
+    <EmbeddedResource Include="Images\BOStudents_24x24.png" />
+    <EmbeddedResource Include="Images\BOStudents_32x32.png" />
+    <EmbeddedResource Include="Images\BOStudents_48x48.png" />
+    <EmbeddedResource Include="Images\BOSubjects_24x24.png" />
+    <EmbeddedResource Include="Images\BOSubjects_32x32.png" />
+    <EmbeddedResource Include="Images\BOSubjects_48x48.png" />
+    <EmbeddedResource Include="Images\BOTasks_24x24.png" />
+    <EmbeddedResource Include="Images\BOTasks_32x32.png" />
+    <EmbeddedResource Include="Images\BOTasks_48x48.png" />
+    <EmbeddedResource Include="Images\BOTeams_24x24.png" />
+    <EmbeddedResource Include="Images\BOTeams_32x32.png" />
+    <EmbeddedResource Include="Images\BOTeams_48x48.png" />
+    <EmbeddedResource Include="Images\BOTemplate_24x24.png" />
+    <EmbeddedResource Include="Images\BOTemplate_32x32.png" />
+    <EmbeddedResource Include="Images\BOTemplate_48x48.png" />
+    <EmbeddedResource Include="Images\BOUserAccount_24x24.png" />
+    <EmbeddedResource Include="Images\BOUserAccount_32x32.png" />
+    <EmbeddedResource Include="Images\BOUserAccount_48x48.png" />
+    <EmbeddedResource Include="Images\BOUserGroup_24x24.png" />
+    <EmbeddedResource Include="Images\BOUserGroup_32x32.png" />
+    <EmbeddedResource Include="Images\BOUserGroup_48x48.png" />
+    <EmbeddedResource Include="Images\BOUser_24x24.png" />
+    <EmbeddedResource Include="Images\BOUser_32x32.png" />
+    <EmbeddedResource Include="Images\BOUser_48x48.png" />
+    <EmbeddedResource Include="Images\OBGroupCluster24x24.png" />
+    <EmbeddedResource Include="Images\OBGroupCluster_32x32.png" />
+    <EmbeddedResource Include="Images\OBGroupCluster_48x48.png" />
+    <EmbeddedResource Include="Images\OBReports_24x24.png" />
+    <EmbeddedResource Include="Images\OBReports_32x32.png" />
+    <EmbeddedResource Include="Images\OBReports_48x48.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Images\BOGroupCluster_24x24.png" />
+    <EmbeddedResource Include="Images\BOGroupCluster_32x32.png" />
+    <EmbeddedResource Include="Images\BOGroupCluster_48x48.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Images\BOCountry_24x24.png" />
+    <EmbeddedResource Include="Images\BOCountry_32x32.png" />
+    <EmbeddedResource Include="Images\BOCountry_48x48.png" />
+    <EmbeddedResource Include="Images\BODistrict_24x24.png" />
+    <EmbeddedResource Include="Images\BODistrict_32x32.png" />
+    <EmbeddedResource Include="Images\BODistrict_48x48.png" />
+    <EmbeddedResource Include="Images\BOInstitution_24x24.png" />
+    <EmbeddedResource Include="Images\BOInstitution_32x32.png" />
+    <EmbeddedResource Include="Images\BOInstitution_48x48.png" />
+    <EmbeddedResource Include="Images\BORoom_24x24.png" />
+    <EmbeddedResource Include="Images\BORoom_32x32.png" />
+    <EmbeddedResource Include="Images\BORoom_48x48.png" />
+    <EmbeddedResource Include="Images\BOSemester_24x24.png" />
+    <EmbeddedResource Include="Images\BOSemester_32x32.png" />
+    <EmbeddedResource Include="Images\BOSemester_48x48.png" />
+    <EmbeddedResource Include="Images\BOStudentEnrollment_24x24.png" />
+    <EmbeddedResource Include="Images\BOStudentEnrollment_32x32.png" />
+    <EmbeddedResource Include="Images\BOStudentEnrollment_48x48.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\QuickZ.Core\QuickZ.Core.csproj">
+      <Project>{b4c4aa6e-e26d-4a5c-a4c4-701b710c2119}</Project>
+      <Name>QuickZ.Core</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\QuickZ.Data\QuickZ.Data.csproj">
+      <Project>{e4da146b-adc0-4e33-9a60-24f021877220}</Project>
+      <Name>QuickZ.Data</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\QuickZ.Persistent.Common\QuickZ.Persistent.Common.csproj">
+      <Project>{2f26bbc4-3ed8-47d9-a94b-f263b18f09a1}</Project>
+      <Name>QuickZ.Persistent.Common</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\QuickZ.Persistent.Xpo\QuickZ.Persistent.Simple.csproj">
+      <Project>{3110411e-dc33-46b2-a7f5-e6c84b413682}</Project>
+      <Name>QuickZ.Persistent.Simple</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\QuickZ.Utils\QuickZ.Utils.csproj">
+      <Project>{ca313142-c29a-4659-827e-0c1cd1d5c40e}</Project>
+      <Name>QuickZ.Utils</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

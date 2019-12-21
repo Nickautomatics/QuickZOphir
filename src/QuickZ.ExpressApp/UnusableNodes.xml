@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Application>
+  <NavigationItems Id="NavigationItems">
+    <Items Id="Items">
+      <Item Id="Default">
+        <Items Id="Items">
+          <Item Id="LocalBusinessFile_ListView" Caption="Business Licenses" ImageName="BO_Lead" />
+        </Items>
+      </Item>
+    </Items>
+  </NavigationItems>
+</Application>
